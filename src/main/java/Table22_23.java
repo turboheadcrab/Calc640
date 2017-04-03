@@ -105,7 +105,7 @@ public class Table22_23 {
         System.out.println("n_iSqr Table");
         for (int j = 0; j < i; j++) {
             n_iSqrArray[j] = n_iArray[j] * n_iArray[j];
-            System.out.println("n_" + j + "]Sqr = " + n_iSqrArray[j]);
+            System.out.println("n_" + j + "Sqr = " + n_iSqrArray[j]);
         }
         System.out.println();
 
