@@ -121,7 +121,7 @@ public class Table22_23 {
         System.out.println();
     }
 
-    public static double rrround(double value, int precision) {
+    private static double rrround(double value, int precision) {
         int scale = (int) Math.pow(10, precision);
         return (double) Math.round(value * scale) / scale;
     }
